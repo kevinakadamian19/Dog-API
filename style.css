@@ -1,0 +1,15 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+
+	font-family: 'Mali', cursive;
+}
+
+.container {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center, space-around;
+}
