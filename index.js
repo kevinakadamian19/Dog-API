@@ -1,5 +1,13 @@
 'use strict';
 
+
+
+function numberOfDogs() {
+	const searchUrl = 'https://dog.ceo/api/breeds/image/random';
+	const url = SearchUrl + '/' + $('#search-number');
+	return url;
+}
+
 function getDogImages() {
 	fetch('https://dog.ceo/api/breeds/image/random/3')
 	.then(response => response.json())
