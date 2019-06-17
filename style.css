@@ -13,3 +13,7 @@ body {
 	flex-direction: column;
 	justify-content: center, space-around;
 }
+
+.hidden {
+	display: none;
+}
